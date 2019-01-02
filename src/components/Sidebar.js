@@ -9,9 +9,9 @@ const Sidebar = props => {
   return (
     <StyledSidebar>
       <h1>
-        Lambda{' '}
+        Daily{' '}
         <span style={{ color: '#00a8ff' }}>
-          Notes{' '}
+          Pages{' '}
           {/* <FontAwesomeIcon
             style={{ 'font-size': '2.5rem' }}
             icon={faStickyNote}

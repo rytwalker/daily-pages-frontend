@@ -67,17 +67,18 @@ const StyledForm = styled.form`
     border: none;
     border-radius: 5px;
     padding: 1rem 1.5rem;
-    font-size: inherit;
     margin-bottom: 2rem;
-    background: #2f3640;
-    color: #f5f6fa;
+    color: #2f3640;
+    background: #f5f6fa;
     outline: none;
-    font-family: monospace;
-    font-weight: bold;
     letter-spacing: 1px;
+  }
+  input {
+    font-size: 2rem;
   }
   textarea {
     resize: none;
+    font-size: inherit;
   }
   .body-input {
     height: 50vh;
